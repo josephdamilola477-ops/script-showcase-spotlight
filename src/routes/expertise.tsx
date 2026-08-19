@@ -5,13 +5,13 @@ import { CtaBand } from "@/components/site-chrome";
 export const Route = createFileRoute("/expertise")({
   head: () => ({
     meta: [
-      { title: "Expertise — Inkforge Book Writing Agency" },
+      { title: "Expertise — Wordwise Book Writing Agency" },
       {
         name: "description",
         content:
           "Ten book publishing disciplines: ghostwriting, developmental editing, line editing, proofreading, cover design, formatting, publishing, audiobooks, marketing and author branding.",
       },
-      { property: "og:title", content: "Expertise — Inkforge Book Writing Agency" },
+      { property: "og:title", content: "Expertise — Wordwise Book Writing Agency" },
       {
         property: "og:description",
         content: "Ten book publishing disciplines under one studio roof.",

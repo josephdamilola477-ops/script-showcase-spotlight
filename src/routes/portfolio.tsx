@@ -5,13 +5,13 @@ import { CtaBand } from "@/components/site-chrome";
 export const Route = createFileRoute("/portfolio")({
   head: () => ({
     meta: [
-      { title: "Portfolio — Inkforge Book Writing Agency" },
+      { title: "Portfolio — Wordwise Book Writing Agency" },
       {
         name: "description",
         content:
-          "Selected books written, edited, designed and launched by Inkforge, with the results each author saw.",
+          "Selected books written, edited, designed and launched by Wordwise, with the results each author saw.",
       },
-      { property: "og:title", content: "Portfolio — Inkforge Book Writing Agency" },
+      { property: "og:title", content: "Portfolio — Wordwise Book Writing Agency" },
       {
         property: "og:description",
         content: "Selected books we wrote, edited, designed and launched.",

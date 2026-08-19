@@ -5,13 +5,13 @@ import { expertise } from "@/data/expertise";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Inkforge Book Writing Agency" },
+      { title: "Contact — Wordwise Book Writing Agency" },
       {
         name: "description",
         content:
-          "Tell Inkforge where your manuscript stands and get an honest editorial read plus a plan within two business days.",
+          "Tell Wordwise where your manuscript stands and get an honest editorial read plus a plan within two business days.",
       },
-      { property: "og:title", content: "Contact — Inkforge Book Writing Agency" },
+      { property: "og:title", content: "Contact — Wordwise Book Writing Agency" },
       {
         property: "og:description",
         content: "Start a book project with Inkforge.",
@@ -37,7 +37,7 @@ function ContactPage() {
           within two business days with a read and a plan.
         </p>
         <div className="mt-10 space-y-2 text-sm text-muted-foreground">
-          <p>hello@inkforge.studio</p>
+          <p>hello@wordwise.studio</p>
           <p>Mon–Fri, 9am–6pm GMT</p>
         </div>
       </div>
