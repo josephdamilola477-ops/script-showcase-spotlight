@@ -14,7 +14,7 @@ export const Route = createFileRoute("/contact")({
       { property: "og:title", content: "Contact — Wordwise Book Writing Agency" },
       {
         property: "og:description",
-        content: "Start a book project with Inkforge.",
+        content: "Start a book project with Wordwise.",
       },
       { property: "og:url", content: "/contact" },
     ],
