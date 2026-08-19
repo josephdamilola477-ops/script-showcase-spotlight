@@ -9,12 +9,12 @@ const nav = [
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 border-b border-border/60 bg-background/70 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link to="/" className="font-display text-lg font-extrabold tracking-tight">
-          Wordwise<span className="text-aurora">.</span>
+    <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
+      <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-5">
+        <Link to="/" className="font-display text-base font-bold tracking-tight">
+          Wordwise
         </Link>
-        <nav className="flex items-center gap-1 text-sm">
+        <nav className="flex items-center gap-6 text-sm">
           {nav.map((item) => (
             <Link
               key={item.to}
@@ -22,7 +22,7 @@ export function SiteHeader() {
               activeOptions={{ exact: item.to === "/" }}
               activeProps={{ className: "text-foreground" }}
               inactiveProps={{ className: "text-muted-foreground" }}
-              className="rounded-full px-3 py-2 transition-colors hover:text-foreground"
+              className="transition-colors hover:text-foreground"
             >
               {item.label}
             </Link>
@@ -35,9 +35,9 @@ export function SiteHeader() {
 
 export function SiteFooter() {
   return (
-    <footer className="border-t border-border/60">
-      <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-10 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-        <p className="font-display text-foreground">Wordwise Literary Studio</p>
+    <footer className="border-t border-border">
+      <div className="mx-auto flex max-w-5xl flex-col gap-2 px-6 py-10 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
+        <p className="font-display text-foreground">Wordwise</p>
         <p>Manuscripts, covers, launches — since 2016.</p>
       </div>
     </footer>
@@ -46,24 +46,20 @@ export function SiteFooter() {
 
 export function CtaBand() {
   return (
-    <section className="mx-auto max-w-6xl px-6 py-20">
-      <div className="surface-card glow relative overflow-hidden rounded-4xl px-8 py-16 text-center">
-        <div
-          aria-hidden
-          className="pointer-events-none absolute inset-x-10 -top-24 h-48 opacity-40 blur-3xl"
-          style={{ backgroundImage: "var(--gradient-aurora)" }}
-        />
-        <h2 className="relative text-4xl font-extrabold sm:text-5xl">
-          Your book deserves a <span className="text-aurora">real team</span>
-        </h2>
-        <p className="relative mx-auto mt-4 max-w-xl text-muted-foreground">
-          Tell us where the manuscript stands. We'll come back with an honest read and a plan.
-        </p>
+    <section className="border-t border-border">
+      <div className="mx-auto flex max-w-5xl flex-col gap-6 px-6 py-20 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <h2 className="text-3xl font-bold sm:text-4xl">Let's write your book</h2>
+          <p className="mt-3 max-w-md text-muted-foreground">
+            Tell us where the manuscript stands. You'll get an honest read and a plan within
+            two working days.
+          </p>
+        </div>
         <Link
           to="/contact"
-          className="relative mt-8 inline-flex rounded-full bg-primary px-7 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5"
+          className="inline-flex shrink-0 items-center rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
         >
-          Start a project
+          Book a free consult
         </Link>
       </div>
     </section>
