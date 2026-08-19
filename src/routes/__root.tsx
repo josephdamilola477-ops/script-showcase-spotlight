@@ -79,13 +79,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Inkforge Literary Studio — Book Writing Agency" },
+      { title: "Wordwise — Book Writing Agency" },
       {
         name: "description",
         content:
           "A full-service book writing agency: ghostwriting, editing, cover design, publishing, audiobooks and launch marketing.",
       },
-      { property: "og:site_name", content: "Inkforge Literary Studio" },
+      { property: "og:site_name", content: "Wordwise" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
