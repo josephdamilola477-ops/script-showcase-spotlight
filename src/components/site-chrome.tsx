@@ -12,7 +12,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/70 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link to="/" className="font-display text-lg font-extrabold tracking-tight">
-          Inkforge<span className="text-aurora">.</span>
+          Wordwise<span className="text-aurora">.</span>
         </Link>
         <nav className="flex items-center gap-1 text-sm">
           {nav.map((item) => (
@@ -37,7 +37,7 @@ export function SiteFooter() {
   return (
     <footer className="border-t border-border/60">
       <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-10 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-        <p className="font-display text-foreground">Inkforge Literary Studio</p>
+        <p className="font-display text-foreground">Wordwise Literary Studio</p>
         <p>Manuscripts, covers, launches — since 2016.</p>
       </div>
     </footer>

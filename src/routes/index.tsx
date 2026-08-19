@@ -8,13 +8,13 @@ import { CtaBand } from "@/components/site-chrome";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Inkforge — Book Writing Agency for Serious Authors" },
+      { title: "Wordwise — Book Writing Agency for Serious Authors" },
       {
         name: "description",
         content:
-          "Inkforge is a book writing agency covering ghostwriting, editing, cover design, formatting, publishing, audiobooks, marketing and author branding.",
+          "Wordwise is a book writing agency covering ghostwriting, editing, cover design, formatting, publishing, audiobooks, marketing and author branding.",
       },
-      { property: "og:title", content: "Inkforge — Book Writing Agency for Serious Authors" },
+      { property: "og:title", content: "Wordwise — Book Writing Agency for Serious Authors" },
       {
         property: "og:description",
         content: "Ten disciplines, one studio: from first outline to bestseller launch.",
@@ -50,7 +50,7 @@ function Index() {
             Portfolio
           </h1>
           <p className="mx-auto mt-10 max-w-2xl text-lg text-muted-foreground">
-            Inkforge is a book writing agency. Ten disciplines under one roof — from the first
+            Wordwise is a book writing agency. Ten disciplines under one roof — from the first
             interview to the launch-week ad spend.
           </p>
           <div className="mt-10 flex justify-center">
@@ -91,7 +91,7 @@ function Index() {
         </div>
         <img
           src={books}
-          alt="Stack of hardcover books published by Inkforge"
+          alt="Stack of hardcover books published by Wordwise"
           width={1200}
           height={1408}
           loading="lazy"
